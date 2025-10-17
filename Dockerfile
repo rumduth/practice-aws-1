@@ -1,4 +1,5 @@
-FROM --platform=linux/amd64 node:latest
+FROM public.ecr.aws/docker/library/node:20
+
 
 EXPOSE 3000
 WORKDIR /app
